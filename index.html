@@ -6,16 +6,25 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- // 4. Write a JavaScript program to remove items(clicking on a button) from a drop-down list. -->
     <label for="colorSelect">Colors:</label>
     <select id="colorSelect">
+        <option>Red</option>
+        <option>Green</option>
+        <option>white</option>
+        <option>Black</option>
+        </select> <br>
+    <button id="btn" style="margin: 15px;">Remove Color</button> <br>
+    
+     
+    <!-- // 5. Write a JavaScript program to change the  color given text in p tag -->
+    <select id="colorSelect2">
         <option>red</option>
         <option>green</option>
         <option>white</option>
         <option>black</option>
-        </select> <br>
-    <button id="btn" style="margin: 15px;">Remove Color</button>
-    
-    
+    </select>
+    <button onclick="changeTextColor()">Change Color</button>
+    <p id="sampleText">"sample test…."</p>
     <script src="./script.js"></script>
-</body>
 </html>

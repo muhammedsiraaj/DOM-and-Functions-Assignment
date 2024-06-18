@@ -7,3 +7,13 @@ function funcion1(){
     const target = parent.lastElementChild
     parent.removeChild(target)
 }
+
+
+// 5. Write a JavaScript program to change the  color given text in p tag 
+
+function changeTextColor() {
+    const colorSelect = document.getElementById("colorSelect2");
+    const selectedColor = colorSelect2.value;
+    const sampleText = document.getElementById("sampleText");
+    sampleText.style.color = selectedColor;
+}
